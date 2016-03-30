@@ -278,7 +278,7 @@ main > .ood-alt2 {
 
 .ood-gallery-item {
   background-color: $color-white;
-  border-bottom: 1px solid $color-gray-light;
+  box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
   margin-bottom: $grid-margins;
 }
 
