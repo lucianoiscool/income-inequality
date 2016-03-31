@@ -39,5 +39,10 @@
       alertLeavingUsg(e, getHostname($(this).prop('action')));
     });
 
+    $(".contact-filter").find("input").change(function() {
+
+      $("."+this.value).toggleClass("hide")
+    })
+
   });
 })(jQuery);
