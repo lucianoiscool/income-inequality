@@ -1,0 +1,22 @@
+{% assign source = site.data.data-sources[include.id] %}
+
+<div class="usa-width-one-third  ood-gallery-item-data-consumer">
+  <article>
+    <div class="ood-gallery-item-image-container source-image"
+         style="background-image: url('{{ source.image_filename | prepend: "img/data-sources/" | prepend: site.baseurl }}'); position: relative">
+    </div>
+
+    <div class="ood-gallery-item-content">
+      <header>
+        <h4 style="text-align: center;">{{ source.name }}</h4>
+      </header>
+      <p>{{ source.summary }}</p>
+      <footer>
+
+        <a href="{{ source.url }}" class="usa-button">{{ source.call_to_action }}</a>
+      </footer>
+    </div>
+  </article>
+</div>
+
+
