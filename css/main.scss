@@ -277,36 +277,36 @@ main > .ood-alt2 {
 }
 
 .ood-gallery-item {
-  background-color: $color-white;
-  box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
-  margin-bottom: $grid-margins;
+background-color: $color-white;
+box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+margin-bottom: $grid-margins;
 }
 
 .ood-gallery-item-image-container {
-  overflow: hidden;
-  background-repeat: no-repeat;
-  background-position: center center;
+overflow: hidden;
+background-repeat: no-repeat;
+background-position: center center;
 
-  &:before {
-    display: block;
-    content: "";
-    width: 100%;
-  }
+&:before {
+  display: block;
+  content: "";
+  width: 100%;
+}
 }
 
 .ood-gallery-item-content {
-  color: $color-gray;
+color: $color-gray;
 }
 
 .ood-gallery-item-commitment {
-  padding: $grid-margins;
+padding: $grid-margins;
 
-  .ood-gallery-item-image-container {
-    background-color: $color-white;
-    background-size: contain;
+.ood-gallery-item-image-container {
+  background-color: $color-white;
+  background-size: contain;
 
-    &:before {
-      padding-top: 346px / 957px * 100%; /* images should be 957 x 346 px */
+  &:before {
+    padding-top: 346px / 957px * 100%; /* images should be 957 x 346 px */
     }
   }
 }
@@ -324,6 +324,13 @@ main > .ood-alt2 {
     &:before {
       padding-top: 442px / 623px * 100%; /* images should be 623 x 442 px */
     }
+  }
+  .source-image{
+    background-color: #fff;
+    background-size: contain;
+    border-bottom: 0px solid #d6d7d9;
+    width: 200px;
+    margin: auto;
   }
 }
 

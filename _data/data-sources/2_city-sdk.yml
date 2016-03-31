@@ -1,0 +1,5 @@
+name: "CitySDK"
+image_filename: "citysdk.png"
+summary: "API for lorem lipsum"
+url: "https://uscensusbureau.github.io/citysdk/"
+call_to_action: "Learn more"

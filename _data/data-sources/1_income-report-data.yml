@@ -1,0 +1,5 @@
+name: "The Census Data"
+image_filename: "excel_graphic.png"
+summary: "All data from 2014 report"
+url: "http://files.zillowstatic.com/research/public/Whitehouse_Hackathon/index.html"
+call_to_action: "Download"
