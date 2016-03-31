@@ -1,0 +1,10 @@
+<div class="usa-grid">
+  {% for c in site.data.data-internal-projects %}
+    {% assign id = c[0] %}
+      {% include_relative index_includes/data-internal-project.html id=id %}
+      <!-- ugly hack: the number of entries in this cycle must match
+           the number of columns in this grid row -->
+      {% cycle '', '', '</div><div class="usa-grid">' %}
+  {% endfor %}
+
+</div>

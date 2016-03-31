@@ -5,7 +5,7 @@
       {% include_relative index_includes/data-consumer.html id=id %}
       <!-- ugly hack: the number of entries in this cycle must match
            the number of columns in this grid row -->
-      {% cycle '', '', '</div><div class="usa-grid">' %}
+      {% cycle '', '', '</div><div class="usa-grid foo">' %}
     {% endif %}
   {% endfor %}
 
