@@ -352,7 +352,13 @@ padding: $grid-margins;
     color: $color-white;
   }
 }
-
+.data-origin-button{
+  margin: auto;
+  width: 60%;
+  display: block;
+  position: absolute;
+  bottom: 0;
+}
 body > footer {
   .usa-footer-secondary_section {
     background-color: $color-gray-dark;
@@ -376,3 +382,8 @@ body > footer {
     margin-bottom: $grid-margins;
   }
 }
+.data-origin{
+  height: 450px;
+  position: relative;
+}
+

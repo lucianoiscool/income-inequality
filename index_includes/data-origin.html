@@ -1,0 +1,17 @@
+{% assign source = site.data.data-origins[include.id] %}
+
+<div class="usa-width-one-third">
+  <article class="data-origin">
+
+      <header>
+        <h3 style="text-align: center;">{{ source.name }}</h3>
+        <p style="text-align: center; font-style: italic;">{{ source.subtitle }}</p>
+      </header>
+      <p>{{ source.summary }}</p>
+      <footer>
+        <a  href="{{ source.url }}" class="usa-button data-origin-button">Learn More</a>
+      </footer>
+  </article>
+</div>
+
+
