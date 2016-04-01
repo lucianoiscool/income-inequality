@@ -1,0 +1,4 @@
+organization_name: "Islands of Income"
+image_filename: "islands-of-income.png"
+summary: "Interactively visualize median household income by county"
+url: "http://www.census.gov/dataviz/visualizations/019/"

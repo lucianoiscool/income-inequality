@@ -1,0 +1,5 @@
+name: "American Fact Finder"
+image_filename: "fact_finder2.jpg"
+summary: "Find popular facts (population, income, etc.) and frequently requested data about your community."
+url: "http://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml"
+call_to_action: "Explore"
