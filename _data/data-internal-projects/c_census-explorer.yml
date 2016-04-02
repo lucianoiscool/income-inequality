@@ -1,4 +1,4 @@
 organization_name: "Census Explorer"
 image_filename: "census-explorer.png"
-summary: "lorem lipsume."
-url: "http://www.census.gov/content/dam/Census/library/publications/2015/demo/p60-252.pdf"
+summary: "Explore a range of American Community Survey demographic topics, including median household income for states, counties and census tracts."
+url: "http://www.census.gov/censusexplorer/censusexplorer.html"
