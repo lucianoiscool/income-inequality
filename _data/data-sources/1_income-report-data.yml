@@ -1,5 +1,5 @@
 name: "The Census Data"
 image_filename: "excel.png"
 summary: "Download all the data from our 2014 report on income inequality and poverty in an open, machine readable format."
-url: "http://files.zillowstatic.com/research/public/Whitehouse_Hackathon/index.html"
+url: "2014incomereport.xlsx"
 call_to_action: "Download"
