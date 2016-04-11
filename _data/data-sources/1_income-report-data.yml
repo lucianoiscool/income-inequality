@@ -1,5 +1,5 @@
 name: "The Census Data"
 image_filename: "excel.png"
 summary: "Download all the data from our 2014 report on income inequality and poverty in an open, machine readable format."
-url: "https://lucianoiscool.github.io/opportunity/public_data/2014_income_report_data.xls"
+url: "https://lucianoiscool.github.io/income-inequality/public_data/2014_income_report_data.xls"
 call_to_action: "Download"

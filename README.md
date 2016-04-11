@@ -1,10 +1,7 @@
-# Opportunity
+# Income Inequality
 
 [![Slack Status](https://opportunity-slack.herokuapp.com/badge.svg)](https://opportunity-slack.herokuapp.com)
 
-Expanding Opportunity with Open Data
-
-http://opportunity.census.gov
 
 
 ### Public domain
