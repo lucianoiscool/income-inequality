@@ -1,6 +1,20 @@
 (function($) {
   $(function() {
 
+    function tokenize_to_dropdown_val(d){
+      return d.toLowerCase().replace(/ /g,"-");
+    }
+    state_options = $("#contact-states");
+    ["Alabama","Alaska","Arizona","Arkansas","California","Colorado","Connecticut","Delaware","District of Columbia","Florida","Georgia","Hawaii","Idaho","Illinois","Indiana","Iowa","Kansas","Kentucky","Louisiana","Maine","Maryland","Massachusetts","Michigan","Minnesota","Mississippi","Missouri","Montana","Nebraska","Nevada","New Hampshire","New Jersey","New Mexico","New York","North Carolina","North Dakota","Ohio","Oklahoma","Oregon","Pennsylvania","Rhode Island","South Carolina","South Dakota","Tennessee","Texas","Utah","Vermont","Virginia","Washington","West Virginia","Wisconsin","Wyoming"]
+    .forEach(function(d){
+      state_options.append('<option value="'+ tokenize_to_dropdown_val(d) +'">' + d + '</option>');
+    });
+    state_options.change(function(d){
+      console.log(this.value)
+      $("#state-contact-link").attr("href", "http://www.census.gov/about/partners/sdc/member-network/"+this.value+".html");
+    })
+
+
     /* Track when Learn More is clicked for each tool */
     $('#connect').on('click', '.ood-gallery-item a', function(event) {
       var toolName = $(this).closest('.ood-gallery-item').find('header').text().trim();
@@ -11,7 +25,7 @@
     function getHostname(url) {
       var a = document.createElement('a');
       a.href = url;
-      return $(a).prop('hostname');
+      return $(a).prop('hostnme');
     }
 
     /* Show alert when leaving a .gov domain. */
@@ -43,6 +57,7 @@
 
       $("."+this.value).toggleClass("hide")
     })
+
 
   });
 })(jQuery);

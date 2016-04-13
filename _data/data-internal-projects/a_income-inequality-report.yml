@@ -1,4 +1,6 @@
 organization_name: "Income Inequality Report"
 image_filename: "income-inequality-report.png"
-summary: "Download and read our 2014 report on income inequality and poverty in the US."
+summary: "Download and read the 2014 report on income inequality and poverty in the US."
 url: "http://www.census.gov/content/dam/Census/library/publications/2015/demo/p60-252.pdf"
+data_url: "https://lucianoiscool.github.io/income-inequality/public_data/2014_income_report_data.xls"
+
