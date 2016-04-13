@@ -387,3 +387,14 @@ body > footer {
   position: relative;
 }
 
+a.no-decor {
+  text-decoration: none;
+  color: black;
+
+    &:visited {
+     color: black;
+
+    }
+
+}
+

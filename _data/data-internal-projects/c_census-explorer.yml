@@ -2,3 +2,5 @@ organization_name: "Census Explorer"
 image_filename: "census-explorer.png"
 summary: "Explore a range of American Community Survey demographic topics, including median household income for states, counties and census tracts."
 url: "http://www.census.gov/censusexplorer/censusexplorer.html"
+data_url: "https://lucianoiscool.github.io/income-inequality/Median_Household_Income_by_State.zip"
+
