@@ -397,4 +397,32 @@ a.no-decor {
     }
 
 }
+.feedback-box{
+  top:80%;
+  right: -50px;
+  position:fixed ;
+  //width: 200px;
+
+  /* Safari */
+  -webkit-transform: rotate(-90deg);
+
+  /* Firefox */
+  -moz-transform: rotate(-90deg);
+
+  /* IE */
+  -ms-transform: rotate(-90deg);
+
+  /* Opera */
+  -o-transform: rotate(-90deg);
+
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+  a{
+    font-size: 1.2rem;
+
+  }
+
+
+}
 
